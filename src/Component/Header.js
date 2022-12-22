@@ -1,15 +1,12 @@
 import React from "react";
-import styles from './header.css'
-import resume from '../images/resume.jpg'
 
+import resumeSvg from "../../assets/resume.svg";
 
+import styles from "./Header.module.css";
 
-function Header(){
-
-	
-
-return(
-<div className={styles.container}>
+function Header() {
+  return (
+    <div className={styles.container}>
       <div className={styles.left}>
         <p className={styles.heading}>
           A <span>Resume</span> that stands out!
@@ -19,10 +16,10 @@ return(
         </p>
       </div>
       <div className={styles.right}>
-        <img src={resume} alt="Resume" />
+        <img src={resumeSvg} alt="Resume" />
       </div>
     </div>
-
-);
+  );
 }
+
 export default Header;
