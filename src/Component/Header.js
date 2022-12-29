@@ -1,8 +1,10 @@
 import React from "react";
 
-import sampleResume from "../images/sampleResume.jpg";
+import sampleResume3 from "../images/sampleResume3.png";
+import sampleResume2 from "../images/sampleResume2.png";
+import sampleResume4 from "../images/sampleResume4.jpg";
 import logo from "../images/logo.png";
-import sampleResume1 from "../images/sampleResume1.jpg";
+import sampleResume from "../images/sampleResume.jpg";
 import resumeSvg from "../images/resume.svg";
 // import Navbar from "./Navbar.js";
 
@@ -14,12 +16,22 @@ function Header() {
     <div className={styles.navbar}>
       <img src={logo} alt="logo" />
 
-      <ul className={styles.content}>
-        <li className={styles.lo}>Resume</li>
-        <li>cover Letter</li>
-        <li>Resume Writing</li>
-        <li>About</li>
-      </ul>
+      <nav >
+   <ul>
+      <li>
+           <a href="#">HOME</a>
+      </li>
+      <li>
+           <a href="#">SERVICES</a>
+      </li>
+      <li>
+           <a href="#">CONTACT</a>
+      </li>
+      <li>
+           <a href="#">ABOUT</a>
+      </li>
+   </ul>
+</nav>
       <div className={styles.btn}>
         <button className={styles.button}>Login</button>
         <button className={styles.button}>sign Up</button>
@@ -35,13 +47,16 @@ function Header() {
         <p className={styles.heading}>
           Make your own resume. <span>It's free</span>
         </p>
+        <button className={styles.try}>Try it free</button>
       </div>
       <div className={styles.right}>
         <div class={styles.gallery}>
           <img src={sampleResume} alt="a dream catcher" />
-          <img src={sampleResume} alt="a dream catcher" />
-          <img src={sampleResume} alt="a dream catcher" />
-          <img src={sampleResume} alt="a dream catcher" />
+          <img src={sampleResume2} alt="a dream catcher" />
+          <img src={sampleResume3} alt="a dream catcher" />
+          <img src={sampleResume4} alt="a dream catcher" />
+      
+          
 
         </div>
       </div>
