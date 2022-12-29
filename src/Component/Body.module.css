@@ -5,9 +5,21 @@
   align-items: center;
   gap: 30px;
   padding-top: 0;
+  /* background: url(../../public/bg.jpg); */
+  
 }
+/* .container::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../../public/bg1.jpg);
+  z-index: -1;
+} */
 
 .heading {
+  margin-top: 1rem;
+  padding-top: 3rem;
   font-weight: 500;
   font-size: 2.1rem;
 }

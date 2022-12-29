@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { X } from "react-feather";
 
-import InputControl from "../InputControl/InputControl";
+import InputControl from "./InputControl.js";
 
 import styles from "./Editor.module.css";
 
