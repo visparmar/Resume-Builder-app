@@ -5,7 +5,7 @@ import sampleResume2 from "../images/sampleResume2.png";
 import sampleResume4 from "../images/sampleResume4.jpg";
 import logo from "../images/logo.png";
 import sampleResume from "../images/sampleResume.jpg";
-import resumeSvg from "../images/resume.svg";
+
 // import Navbar from "./Navbar.js";
 
 import styles from "./Header.module.css";
