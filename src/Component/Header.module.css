@@ -146,14 +146,14 @@ img[alt="logo"]{
   /* --s: 280px; control the size */
   
   display: grid;
-  width: 600px;
-  height: 600px;
-  /* aspect-ratio: 1; */
-  /* overflow: hidden; */
-  /* padding: calc(var(--s)/20); */
-  /* border-radius: 10%; */
-  /* position: relative; */
-  clip-path: circle(70.5%); 
+  width: 500px;
+  height: 700px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  padding: calc(var(--s)/20);
+  border-radius: 10%;
+  position: relative;
+  clip-path: circle(80.5%); 
 }
 .gallery::after {
   content: "";
